@@ -701,6 +701,12 @@ header
   }
 }
 
+.header-text {
+  text-align: center;
+  font-size: xx-large;
+  color: #3b566e;
+}
+
 /* 
 ---------------------------------------------
 welcome
@@ -1305,8 +1311,36 @@ preloader
 faqs
 ---------------------------------------------
 */
-
 #faqs {
   padding: 100px 0px;
   justify-content: center;
+}
+
+#faq-text {
+  line-height: normal;
+}
+#faq-text h1{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: xx-large;
+}
+#faq-text h2{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #f8746f;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#faq-text p{
+  font-weight: normal;
+  font-size: medium;
+  color: #4a4a4a 
+}
+
+#faq-text ul li {
+  list-style-type: square;
+  margin-left: 30px;
 }
